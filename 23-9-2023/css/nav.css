@@ -1,0 +1,79 @@
+nav{
+    background-color: black;
+}
+
+
+.nav__main{
+align-items: center;
+display: flex;
+
+}
+
+
+
+.main__menu{
+width: 70%;
+
+}
+
+
+
+.main__menu ul{
+    margin: 0;
+    padding: 0;
+display: flex;
+list-style: none;
+}
+
+.main__menu ul li a{
+    color: white;
+    text-transform: uppercase;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+
+.main__menu ul li a:hover{
+    background-color: gray;
+}
+
+.main__search{
+    width: 30%;
+    text-align: right;
+    
+    
+}
+
+.search_fex{
+    background-color: white;
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 5px;
+    
+    
+    
+    
+}
+.search_fex button{
+    background-color: white;
+    border: none;
+    
+
+}
+.search_fex button:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.search_fex input{
+    height: 21px;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    
+}
+
+
+

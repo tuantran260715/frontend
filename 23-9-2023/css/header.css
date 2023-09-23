@@ -1,0 +1,39 @@
+.header__top{
+    background-color: blue;
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(166, 255, 0);
+
+}
+
+.header__bottom{
+    background-image: url('../image/header-bottom.jpg');
+    background-size: cover;
+    color: aqua;
+    padding: 15px;
+
+}
+
+
+.header__bottom h2{
+    /* top=0, right=0, bottom=0, left=0 */
+text-transform: uppercase;
+margin: 0px 0px 15px 0px;
+}
+
+.bottom_info ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.bottom_info ul li{
+    margin-bottom: 7px;
+   
+}
+
+.bottom_info ul li:last-child{
+    margin: 0;
+}

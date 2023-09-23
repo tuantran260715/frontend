@@ -1,0 +1,137 @@
+.main__fex{
+    display: flex;
+    margin-top: 10px;
+}
+
+aside{
+width: 25%;
+margin-right: 2%;
+}
+.main__right{
+    width: 73%;
+}
+.category__title,
+.bestseller__title{
+    display: flex;
+    background-color: #00729f;
+    color: white;
+    justify-content: center;
+    padding: 15px;
+    text-transform: uppercase;
+    align-items: center;
+}
+.main__category,
+.main__bestseller{
+    margin-bottom: 20px;
+}
+.title_icon{
+    margin-right: 15px;
+}
+
+.title_heading h3{
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+.category__list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.category__list ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    background-color: #f3f2f2;
+    text-transform: uppercase;
+    color: black;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+}
+.category__list ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.bestseller__list{
+    padding: 10px;
+    background-color: #f3f2f2;
+}
+.bestseller__list .list__products img{
+    width: 100%;
+}
+.bestseller__list .list__products{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.bestseller__list .list__products:last-child{
+    margin-bottom: 0;
+}
+.bestseller__list .list__products a{
+    text-decoration: none;
+    color: black;
+
+}
+.bestseller__list .list__products h4{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bestseller__list .list__products a:hover{
+    color: #00729f;
+}
+.right__content h1{
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+.main__right .bx-wrapper{
+    margin-bottom: 20px;
+}
+.right__content a{
+    color: #00729f;
+    
+}
+.right__content p{
+    line-height: 20px;
+}
+.color-red{
+    color: red;
+}
+.right__home .home__title{
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+.home__title .title__left{
+    width: 30%;
+    background-color: #00729f;
+    padding: 10px;
+    clip-path: polygon(0 0, 86% 0, 100% 100%, 0% 100%);
+}
+.home__title .title__left h2{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+.home__title .title_right{
+    width: 70%;
+    text-align: right;
+    padding: 10px;
+}
+.home__title .title_right a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+}
+.title_right a:hover{
+    color: #00729f;
+
+}
+
+
+
+
